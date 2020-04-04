@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Work Order</name>
+  <author>LordKuper</author>
+  <packageId>LordKuper.WorkOrder</packageId>
+  <supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>fluffy.worktab</li>
+    <li>notfood.MoreThanCapable</li>
+  </loadAfter>
+  <description>Work type priority order</description>
+</ModMetaData>
