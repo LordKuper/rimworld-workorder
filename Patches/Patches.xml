@@ -5,12 +5,12 @@
     <success>Always</success>
     <operations>
       <li Class="PatchOperationTest">
-        <xpath>/Defs/WorkTypeDef[defName = "Research"]</xpath>
+        <xpath>/Defs/WorkTypeDef[defName = "VCEF_Fishing"]</xpath>
       </li>
       <li Class="PatchOperationReplace">
-        <xpath>/Defs/WorkTypeDef[defName = "Research"]/naturalPriority</xpath>
+        <xpath>/Defs/WorkTypeDef[defName = "VCEF_Fishing"]/naturalPriority</xpath>
         <value>
-          <naturalPriority>100</naturalPriority>
+          <naturalPriority>50</naturalPriority>
         </value>
       </li>
     </operations>
@@ -19,12 +19,12 @@
     <success>Always</success>
     <operations>
       <li Class="PatchOperationTest">
-        <xpath>/Defs/WorkTypeDef[defName = "VCEF_Fishing"]</xpath>
+        <xpath>/Defs/WorkTypeDef[defName = "Research"]</xpath>
       </li>
       <li Class="PatchOperationReplace">
-        <xpath>/Defs/WorkTypeDef[defName = "VCEF_Fishing"]/naturalPriority</xpath>
+        <xpath>/Defs/WorkTypeDef[defName = "Research"]/naturalPriority</xpath>
         <value>
-          <naturalPriority>150</naturalPriority>
+          <naturalPriority>100</naturalPriority>
         </value>
       </li>
     </operations>
