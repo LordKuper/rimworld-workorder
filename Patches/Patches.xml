@@ -187,6 +187,20 @@
     <success>Always</success>
     <operations>
       <li Class="PatchOperationTest">
+        <xpath>/Defs/WorkTypeDef[defName = "RB_BeekeepingWork"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/WorkTypeDef[defName = "RB_BeekeepingWork"]/naturalPriority</xpath>
+        <value>
+          <naturalPriority>1150</naturalPriority>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
         <xpath>/Defs/WorkTypeDef[defName = "Hunting"]</xpath>
       </li>
       <li Class="PatchOperationReplace">
