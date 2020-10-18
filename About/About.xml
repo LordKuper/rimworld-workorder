@@ -6,11 +6,15 @@
   <packageId>LordKuper.WorkOrder</packageId>
   <supportedVersions>
     <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
   <loadAfter>
     <li>brrainz.harmony</li>
-    <li>fluffy.worktab</li>
-    <li>notfood.MoreThanCapable</li>
+    <li>VanillaExpanded.VCEF</li>
+    <li>sarg.rimbees</li>
+    <li>Orion.Hospitality</li>
+    <li>fluffy.colonymanager</li>
+    <li>UnlimitedHugs.AllowTool</li>
   </loadAfter>
   <description>Work type priority order</description>
 </ModMetaData>
