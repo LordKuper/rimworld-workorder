@@ -5,10 +5,24 @@
     <success>Always</success>
     <operations>
       <li Class="PatchOperationTest">
-        <xpath>/Defs/WorkTypeDef[defName = "VCEF_Fishing"]</xpath>
+        <xpath>/Defs/WorkTypeDef[defName = "Training"]</xpath>
       </li>
       <li Class="PatchOperationReplace">
-        <xpath>/Defs/WorkTypeDef[defName = "VCEF_Fishing"]/naturalPriority</xpath>
+        <xpath>/Defs/WorkTypeDef[defName = "Training"]/naturalPriority</xpath>
+        <value>
+          <naturalPriority>40</naturalPriority>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/WorkTypeDef[defName = "VBE_Writing"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/WorkTypeDef[defName = "VBE_Writing"]/naturalPriority</xpath>
         <value>
           <naturalPriority>50</naturalPriority>
         </value>
@@ -187,10 +201,10 @@
     <success>Always</success>
     <operations>
       <li Class="PatchOperationTest">
-        <xpath>/Defs/WorkTypeDef[defName = "RB_BeekeepingWork"]</xpath>
+        <xpath>/Defs/WorkTypeDef[defName = "VCEF_Fishing"]</xpath>
       </li>
       <li Class="PatchOperationReplace">
-        <xpath>/Defs/WorkTypeDef[defName = "RB_BeekeepingWork"]/naturalPriority</xpath>
+        <xpath>/Defs/WorkTypeDef[defName = "VCEF_Fishing"]/naturalPriority</xpath>
         <value>
           <naturalPriority>1150</naturalPriority>
         </value>
@@ -221,6 +235,34 @@
         <xpath>/Defs/WorkTypeDef[defName = "Cooking"]/naturalPriority</xpath>
         <value>
           <naturalPriority>1300</naturalPriority>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/WorkTypeDef[defName = "VFEV_Beekeeping"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/WorkTypeDef[defName = "VFEV_Beekeeping"]/naturalPriority</xpath>
+        <value>
+          <naturalPriority>1350</naturalPriority>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/WorkTypeDef[defName = "RB_BeekeepingWork"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/WorkTypeDef[defName = "RB_BeekeepingWork"]/naturalPriority</xpath>
+        <value>
+          <naturalPriority>1350</naturalPriority>
         </value>
       </li>
     </operations>
