@@ -70,6 +70,20 @@
         </value>
       </li>
     </operations>
+    <Operation Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/WorkTypeDef[defName = "Managing"]</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/WorkTypeDef[defName = "Managing"]/naturalPriority</xpath>
+          <value>
+            <naturalPriority>350</naturalPriority>
+          </value>
+        </li>
+      </operations>
+    </Operation>
   </Operation>
   <Operation Class="PatchOperationSequence">
     <success>Always</success>
@@ -290,7 +304,35 @@
       <li Class="PatchOperationReplace">
         <xpath>/Defs/WorkTypeDef[defName = "FinishingOff"]/naturalPriority</xpath>
         <value>
-          <naturalPriority>1450</naturalPriority>
+          <naturalPriority>1480</naturalPriority>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/WorkTypeDef[defName = "Therapist"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/WorkTypeDef[defName = "Therapist"]/naturalPriority</xpath>
+        <value>
+          <naturalPriority>1470</naturalPriority>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/WorkTypeDef[defName = "Gastronomy_Waiting"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/WorkTypeDef[defName = "Gastronomy_Waiting"]/naturalPriority</xpath>
+        <value>
+          <naturalPriority>1460</naturalPriority>
         </value>
       </li>
     </operations>
@@ -319,20 +361,6 @@
         <xpath>/Defs/WorkTypeDef[defName = "Warden"]/naturalPriority</xpath>
         <value>
           <naturalPriority>1500</naturalPriority>
-        </value>
-      </li>
-    </operations>
-  </Operation>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationTest">
-        <xpath>/Defs/WorkTypeDef[defName = "Managing"]</xpath>
-      </li>
-      <li Class="PatchOperationReplace">
-        <xpath>/Defs/WorkTypeDef[defName = "Managing"]/naturalPriority</xpath>
-        <value>
-          <naturalPriority>1550</naturalPriority>
         </value>
       </li>
     </operations>
