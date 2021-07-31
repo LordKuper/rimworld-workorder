@@ -145,6 +145,20 @@
     <success>Always</success>
     <operations>
       <li Class="PatchOperationTest">
+        <xpath>/Defs/WorkTypeDef[defName = "QuarryMining"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/WorkTypeDef[defName = "QuarryMining"]/naturalPriority</xpath>
+        <value>
+          <naturalPriority>750</naturalPriority>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
         <xpath>/Defs/WorkTypeDef[defName = "Mining"]</xpath>
       </li>
       <li Class="PatchOperationReplace">
