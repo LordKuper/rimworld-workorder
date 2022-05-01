@@ -1,25 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-  <name>Work Order</name>
-  <author>LordKuper</author>
-  <packageId>LordKuper.WorkOrder</packageId>
-  <supportedVersions>
-    <li>1.1</li>
-    <li>1.2</li>
-    <li>1.3</li>
-  </supportedVersions>
-  <loadAfter>
-    <li>brrainz.harmony</li>
-    <li>VanillaExpanded.VCEF</li>
-    <li>sarg.rimbees</li>
-    <li>Orion.Hospitality</li>
-    <li>fluffy.colonymanager</li>
-    <li>UnlimitedHugs.AllowTool</li>
-    <li>Brunayla.Training.Rack</li>
-    <li>OskarPotocki.VFE.Vikings</li>
-    <li>VanillaExpanded.VBooksE</li>
-    <li>Ogliss.TheWhiteCrayon.Quarry</li>
-  </loadAfter>
-  <description>Work type priority order</description>
+	<name>Work Order</name>
+	<author>LordKuper</author>
+	<packageId>LordKuper.WorkOrder</packageId>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+		<li>1.3</li>
+	</supportedVersions>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>VanillaExpanded.VCEF</li>
+		<li>sarg.rimbees</li>
+		<li>Orion.Hospitality</li>
+		<li>fluffy.colonymanager</li>
+		<li>UnlimitedHugs.AllowTool</li>
+		<li>Brunayla.Training.Rack</li>
+		<li>OskarPotocki.VFE.Vikings</li>
+		<li>VanillaExpanded.VBooksE</li>
+		<li>Ogliss.TheWhiteCrayon.Quarry</li>
+		<li>babies.and.children.continued.13</li>
+		<li>Dylan.CSL</li>
+	</loadAfter>
+	<description>Work type priority order</description>
 </ModMetaData>
