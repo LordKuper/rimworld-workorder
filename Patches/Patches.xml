@@ -509,6 +509,20 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
+				<xpath>/Defs/WorkTypeDef[defName = "CP_CasevacRescue"]</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/WorkTypeDef[defName = "CP_CasevacRescue"]/naturalPriority</xpath>
+				<value>
+					<naturalPriority>1675</naturalPriority>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
 				<xpath>/Defs/WorkTypeDef[defName = "PatientBedRest"]</xpath>
 			</li>
 			<li Class="PatchOperationReplace">
